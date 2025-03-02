@@ -9,7 +9,7 @@ export const Cart = () => {
     setOpenModal(false);
   };
   const orderList = useSelector((state: RootState) => state.orderList);
-  console.log(orderList, "orderList");
+  console.log(orderList);
 
   return (
     <Fragment>

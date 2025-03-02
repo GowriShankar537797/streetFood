@@ -14,12 +14,8 @@ const reducer = (
   state: OrderState = initialState,
   action: { type: string; value: any }
 ) => {
-  console.log(action, "action");
-
   switch (action.type) {
     case actionType.createOrder:
-      console.log(state);
-
       return { ...state, orderList: [action.value] };
 
     default:

@@ -31,8 +31,6 @@ const FoodOrderModal = ({ open, onClose }: FoodOrderModalProps) => {
         />
         <button
           onClick={() => {
-            console.log(order, "order");
-
             dispatch({ type: actionType.createOrder, value: order });
           }}
         >
