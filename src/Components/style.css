@@ -1,0 +1,25 @@
+.modal-container {
+  width: 650px;
+  height: 30vh;
+  position: fixed;
+  inset: 0;
+  margin: 166px auto;
+
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0.5px 0.5px 15px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.modal-container .modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.modal-header span {
+  font-size: 30px;
+  padding: 0px 10px;
+  cursor: pointer;
+}
